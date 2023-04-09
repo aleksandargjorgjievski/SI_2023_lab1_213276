@@ -1,0 +1,10 @@
+1. Инсталирање Git и креирање на профил на Github
+2. Менување на името на главната гранка на master 
+3. Креирање на remote репозиториум на Github со име SI_2023_lab1_213276
+4. Креирање на локален репозиториум и иницијализирање на .git со командата git init 
+5. Поврзување на локалниот репозиториум со remote репозиториум: git remote add origin https://github.com/aleksandargjorgjievski/SI_2023_lab1_213276.git
+6. Го дадаваме README.md фајлот со помош на командата "touch README.md". По прометна на соджината на README.md го додаваме README.md со git add README.md и потоа го извршуваме првиот commit со командата git commit -m "initial commit"
+7. Додаваме фајл SILab1.java со командата "touch SILab1.java". Ја додаваме класата а потоа го спремаме фајлот за commit со "git add SILab1.java" и на крај го извршуаме commitot: git commit -m "Add java class" 
+8. Вршиме синхронизација на сите гранки со remote репозиториумот со командата git push -u origin master
+27. Додавање на датотека logs.txt i 213276.txt. Нивно спремање за извршуавање на последниот commit со git add logs.txt 213276.txt и на крај го извршуваме последниот commit: git commit -m "Final commit" 
+28. Синхронизација на сите гранки со remote репозиториумот со командата git push -u origin master
